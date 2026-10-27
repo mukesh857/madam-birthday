@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090713">
+  <title>Happy Birthday Neha Mam ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <canvas id="fireworks"></canvas>
+  <div id="confetti"></div>
+  <div id="balloons"></div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-glow"></div>
+      <div class="eyebrow">A little celebration, made with love</div>
+      <h1>Happy Birthday<br><span>Neha Mam</span></h1>
+      <p class="hero-copy">Today isn't just another day. It's a reason to celebrate the wonderful person you are.</p>
+      <button class="primary-btn" id="startBtn">Begin the Celebration <span>→</span></button>
+      <div class="scroll-hint">SCROLL TO DISCOVER <i>↓</i></div>
+    </section>
+
+    <section class="memory" id="memory">
+      <div class="section-tag">A beautiful moment</div>
+      <div class="memory-grid">
+        <div class="photo-wrap">
+          <div class="photo-frame">
+            <img src="neha-mam.jpg" alt="Neha Mam">
+          </div>
+          <div class="photo-glow"></div>
+        </div>
+        <div class="memory-copy">
+          <p class="kicker">For someone special</p>
+          <h2>Today is <em>your</em> day.</h2>
+          <p>May your smile stay this beautiful, your days become brighter, and every new chapter bring you something wonderful.</p>
+          <div class="mini-stars">✦ &nbsp; ✧ &nbsp; ✦</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wish-section">
+      <div class="section-tag">Make a wish</div>
+      <h2>Close your eyes.<br><em>Make it count.</em></h2>
+      <p>Press the button when you're ready. The candles are waiting for you.</p>
+      <button class="wish-btn" id="wishBtn">🕯️ Make a Wish</button>
+
+      <div class="cake-stage">
+        <div class="cake">
+          <div class="candle c1"><span class="flame"></span></div>
+          <div class="candle c2"><span class="flame"></span></div>
+          <div class="candle c3"><span class="flame"></span></div>
+          <div class="cake-top"></div>
+          <div class="cake-body"></div>
+          <div class="cake-plate"></div>
+        </div>
+        <div class="cake-shadow"></div>
+      </div>
+
+      <button class="cut-btn" id="cutBtn" disabled>🔪 Cut the Cake</button>
+    </section>
+
+    <section class="celebrate" id="celebrate">
+      <div class="celebrate-inner">
+        <div class="big-burst">✦</div>
+        <p class="section-tag">Let the celebration begin</p>
+        <h2>Cheers to another<br><em>beautiful year!</em></h2>
+        <p>May there be endless reasons to laugh, love, grow and celebrate.</p>
+        <button class="firework-btn" id="fireworkBtn">🎆 Launch Fireworks</button>
+      </div>
+    </section>
+
+    <section class="message">
+      <div class="message-card">
+        <div class="quote-mark">“</div>
+        <p class="section-tag">A birthday note</p>
+        <h2>Dear Neha Mam,</h2>
+        <p class="letter">
+          Wishing you a very Happy Birthday! May this special day fill your heart with happiness
+          and your year with beautiful memories. May every dream you carry find its way to you,
+          and may every day ahead bring new reasons to smile.
+        </p>
+        <p class="signature">With warmest wishes <span>♥</span></p>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="finale-stars">✦ ✧ ✦ ✧ ✦</div>
+      <h2>Happy Birthday,<br><span>Neha Mam</span> ❤️</h2>
+      <p>May your year be as wonderful as you are.</p>
+      <button class="again-btn" id="againBtn">Celebrate Again ↗</button>
+    </section>
+  </main>
+
+  <div class="toast" id="toast">✨ Your wish has been sent to the universe!</div>
+  <audio id="music" loop preload="none">
+    <!-- Optional: put your own music file at assets/birthday.mp3 and uncomment src below -->
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
